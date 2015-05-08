@@ -1,0 +1,153 @@
+body{
+	background-image: url(http://nc3t.com/wp-content/uploads/2015/03/Inspiration-words.jpg);
+	background-repeat: no-repeat;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+ 	 font-family: 'Gloria Hallelujah', cursive;
+	
+}
+footer{
+	background: rgba(240, 245, 245, 0.4);
+	width: 75%;
+	margin: 0 auto;
+}
+.hoofd{
+    background: rgba(240, 245, 245, 0.4);
+    width: 75%;
+    margin: 0 auto;
+    height: 35em;
+    margin-top: 10px;
+}
+h1{
+	font-size: 60pt;
+	margin-left: 1em;
+}
+.sub{
+	font-size: 50pt;
+	padding-left: 25px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: white;
+}
+.home, .portfolio, .contact, .me{
+	font-size: 25pt;
+	margin-top: 1em;
+	border-radius: 50%;
+	width: 180px;
+	height: 50px;
+	background: rgba(140,145, 145, 0.7);
+	text-align: center;
+}
+.streep{
+	background: black;
+	width: 10px;
+	height: 20em;
+	float: left;
+	margin-top: -20em;
+	margin-left: 21em;
+}
+.hoofdfoto{
+	position: relative;
+	top: -28em;
+	right: -26em;
+	width: 57%;
+	opacity: 0.8;
+	border-radius: 50%;
+}
+.home{
+	position: relative;
+	left:1em;
+	margin-top: 2em;
+}
+.portfolio{
+	position: relative;
+	left:3em;
+}
+.contact{
+	position: relative;
+	left:2em;
+}
+.me{
+	position: relative;
+	left:4em;
+}
+.portfolio1, .contact1, .me1{
+	background: rgba(240, 245, 245, 0.4);
+    width: 45%;
+    margin:0 auto;
+    width: 75%;
+}
+h2, h3, h4{
+	font-size: 18pt;
+	padding: 1em 1em 1em 1em;
+}
+p{
+	padding-left: 1em;
+}
+.foto{
+	background: rgba(240, 245, 245, 0.4);
+	margin: 1em 1em 0em 1em;
+	height: 20em;
+}
+.foto1{
+	width: 32%;
+	padding-top: 3.5%;
+	margin-left: 0.5em;
+	float: left;
+	height: 14.9em;
+}
+.foto4{
+	width: 16.85%;
+	float: right;
+	padding-top: 1.5%;
+	float: left;
+}
+.foto5{
+	width: 34%;
+	float: left;
+	padding-top: 3.5%;
+}
+.foto2{
+	float: left;
+	padding-top: 1.5%;
+}
+.contact1{
+	padding-bottom: 3em;
+}
+.ta{
+	color: blue;
+}
+@media screen and (max-width: 1100px) {
+	.hoofdfoto{
+		position: relative;
+		top: -18em;
+		right: -26em;
+		width: 37%;
+		opacity: 0.8;
+		border-radius: 50%;
+	}
+	.foto1{
+	width: 30%;
+	padding-top: 5%;
+	}
+	.foto4{
+	width: 14.85%;
+	height: 15em;
+	padding-top: 5%;
+	}
+	.foto5{
+	width: 32%;
+	padding-top: 8%;
+	}
+	body{
+		background-image: url(http://nc3t.com/wp-content/uploads/2015/03/Inspiration-words.jpg);
+		background-repeat: no-repeat;
+		background-size: 260%;
+	}
+}
